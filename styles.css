@@ -62,8 +62,6 @@ aside{
 
 }
 .article{
-	box-sizing:border-box;
-	border: solid;
 	order:2;
 	text-align:center;
 }
