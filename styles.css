@@ -47,7 +47,7 @@ aside{
 	border:solid;
 	order:1;
 	background-color:#00FF00;
-	border-color:#00FF00;
+	border-color:black;
 	text-align:center;
 	
 }
@@ -57,7 +57,7 @@ aside{
 	border:solid;
 	order:3;
 	background-color:#00FF00;
-	border-color:#00FF00;
+	border-color:black;
 	text-align:center;
 
 }
