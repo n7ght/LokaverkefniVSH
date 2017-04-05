@@ -1,0 +1,169 @@
+body{
+	max-width: 60em;
+	margin:0 auto;
+}
+
+header{
+	margin: auto;
+	text-align:center;
+}
+
+header nav{
+	background-color:#071418;
+	border-color:black;
+}
+header nav a{
+  display:inline-block;
+  padding:15px;
+  text-decoration: none;
+  border-left:1px solid #2EFE2E;
+  margin-left:-5px;
+  color:red;
+}
+header nav a:last-of-type
+{
+  border-right:1px solid #2EFE2E;
+}
+header nav a:hover{
+  color:#FF8000;
+  
+
+ }
+nav{
+	background-color:#FE2E2E;
+	box-sizing:border-box;
+	border: solid;
+	border-color:#FE2E2E;
+	border-radius:1px;
+	
+
+}
+aside{
+	width: 200px;
+	height: 960px;
+}
+.aside{
+	box-sizing:border-box;
+	border:solid;
+	order:1;
+	background-color:#00FF00;
+	border-color:#00FF00;
+	text-align:center;
+	
+}
+
+.aside2{
+	box-sizing:border-box;
+	border:solid;
+	order:3;
+	background-color:#00FF00;
+	border-color:#00FF00;
+	text-align:center;
+
+}
+.article{
+	box-sizing:border-box;
+	border: solid;
+	order:2;
+	background-color:#2E9AFE;
+	border-color:#2E9AFE;
+	text-align:center;
+}
+.row{
+	display:flex;
+	flex-flow:row;
+}
+
+footer{
+	background-color: #FFFF00;
+	box-sizing:border-box;
+	border:solid;
+	border-color:#FFFF00;
+	text-align:center;
+}
+nav{
+	text-align:center;
+}
+
+.box-1{
+	background: #2db34a;
+	width:3em;
+	height:3em;
+	text-align:center;
+	position:fixed;
+	left:5px;
+	top:50px;
+	border:1px solid;
+	border-color:red;
+
+		
+}
+.box-2{
+	background: #2db34a;
+	width:3em;
+	height:3em;
+	text-align:center;
+	position:fixed;
+	left:5px;
+	top:98px;
+	border:1px solid;
+	border-color:red;
+
+		
+}
+.box-3{
+	background: #2db34a;
+	width:3em;
+	height:3em;
+	text-align:center;
+	position:fixed;
+	left:5px;
+	top:144px;
+	border:1px solid;
+	border-color:red;
+		
+}
+.box-4{
+	background: #2db34a;
+	width:3em;
+	height:3em;
+	text-align:center;
+	position:fixed;
+	left:5px;
+	top:190px;
+	border:1px solid;
+	border-color:red;
+
+		
+}
+.topmeenu{
+  	width: 100%;
+  	position: fixed;
+  	left: 0;
+  	bottom: -15em;
+  	padding: 0;
+  	margin: 0;
+  	list-style: none;
+  	transition: all .1s ease;
+ 
+}
+.topmeenu nav{
+	border: 0;
+	border-bottom: 1px solid lime;
+	padding: 0;
+	margin: 0;
+}
+
+.topmeenu a{
+	display: block;
+	color:black;
+	text-decoration: none;
+	text-align: center;
+	padding:  5px 9px;
+	background-color: #096;
+}
+.topeenu a:hover,
+.topeenu a:active,
+.topeenu a:focus {
+	background-color: lime;
+	transition: all 1s ease;
