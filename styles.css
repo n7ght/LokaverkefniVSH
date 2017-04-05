@@ -1,5 +1,5 @@
 body{
-	max-width: 60em;
+	max-width: 97%;
 	margin:0 auto;
 }
 
@@ -39,7 +39,7 @@ nav{
 
 }
 aside{
-	width: 200px;
+	width: 860px;
 	height: 960px;
 }
 .aside{
