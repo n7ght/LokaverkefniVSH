@@ -65,8 +65,6 @@ aside{
 	box-sizing:border-box;
 	border: solid;
 	order:2;
-	background-color:#2E9AFE;
-	border-color:#2E9AFE;
 	text-align:center;
 }
 .row{
