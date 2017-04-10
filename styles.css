@@ -9,9 +9,12 @@ header{
 	margin: auto;
 	text-align:center;
 	padding-bottom: 20px;
+	width: 1500px;
+	
 }
 
 header nav{
+	background-image: url("myndir/twitrheaders.jpg");
 	background-color:#071418;
 	border-color:black;
 	background-color:#FE2E2E;
@@ -20,7 +23,7 @@ header nav{
 	border-color:black;
 	border-radius:3px;
 	text-align: center;
-	height: 150px;
+	height: 500px;
 
 }
 header nav a{
