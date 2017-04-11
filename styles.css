@@ -3,6 +3,7 @@ body{
 	margin:0 auto;
 	padding-top: 20px;
 	padding-bottom: 20px;
+	
 }
 
 header{
@@ -51,8 +52,8 @@ aside{
 	box-sizing:border-box;
 	border:solid;
 	order:1;
-	background-color:#00FF00;
-	border-color:black;
+	background-color:#f0ead6;
+	border-color:#f0ead6;
 	text-align:center;
 	
 }
@@ -61,8 +62,8 @@ aside{
 	box-sizing:border-box;
 	border:solid;
 	order:3;
-	background-color:#00FF00;
-	border-color:black;
+	background-color:#f0ead6;
+	border-color:#f0ead6;
 	text-align:center;
 
 }
@@ -163,3 +164,75 @@ footer{
 	background-color: lime;
 	transition: all 1s ease;
 }
+*{
+	padding: 0px;
+	margin: 0px;
+}
+#div1{
+	width: 100%;
+	height: 667px;
+	background: url("download.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+#div2{
+	background:#11A18A;
+	height: 100px;
+	width: 100%;
+	text-align: 50px;
+	line-height: 100px;
+	opacity: 0.8;
+	filter: alpha(opacity=80)
+}
+#div2 h1{
+	float: left;
+	font-weight: 400;
+	color: white;
+	cursor: pointer;
+	margin-left: 10px;
+}
+#div2 ul{
+	float: right;
+	position: relative;
+	margin-right: 100px;
+	line-height: 55px;
+
+}
+#div2 ul li{
+	list-style-type: none;
+	display: inline-block;
+}
+#div2 ul li a{
+	padding: 22px;
+	text-decoration: none;
+	color: white;
+	display: block;
+}
+#div2 ul li:hover{
+	background:#29B59F;
+	transition: all 0.40s;
+}
+#div2 ul li:hover ul{
+	display: block;
+}
+#div2 ul ul{
+	display: none;
+	width: 120px;
+	position: relative;
+}
+#div2 ul ul li{
+	background: #29B59F;
+	display: block;
+}
+#div2 ul ul li a{
+	padding: 15px;
+
+}
+#div ul li li:hover{
+	background:#11A18A;
+	transition: all 0.40s;
+}
+.active{
+	background:#29B59F;
+}
+
