@@ -49,7 +49,7 @@ aside{
 	border:solid;
 	order:1;
 	background-color:#f0ead6;
-	border-color:#f0ead6;
+	border-color:#f0ead9;
 	text-align:center;
     
 	
@@ -60,7 +60,7 @@ aside{
 	border:solid;
 	order:3;
 	background-color:#f0ead6;
-	border-color:#f0ead6;
+	border-color:#f0ead9;
 	text-align:center;
     
 
@@ -138,7 +138,7 @@ article{
 }
 .topmeenu nav{
 	border: 0;
-	border-bottom: 1px solid lime;
+	border-bottom: 1px #f0ead9;
 	padding: 0;
 	margin: 0;
 }
@@ -149,12 +149,12 @@ article{
 	text-decoration: none;
 	text-align: center;
 	padding:  5px 9px;
-	background-color: #096;
+	background-color: #f0ead9;
 }
 .topeenu a:hover,
 .topeenu a:active,
 .topeenu a:focus {
-	background-color: lime;
+	background-color: #F0EAD6;
 	transition: all 1s ease;
 }
 *{
@@ -214,7 +214,7 @@ article{
 	position: relative;
 }
 #div2 ul ul li{
-	background: #29B59F;
+	background: #F0EAD6;
 	display: block;
 }
 #div2 ul ul li a{
@@ -222,11 +222,11 @@ article{
 
 }
 #div ul li li:hover{
-	background:#11A18A;
+	background:#F0EAD6;
 	transition: all 0.40s;
 }
 .active{
-	background:#29B59F;
+	background:#F0EAD6;
 }
 .wrap {
   text-align: center;
