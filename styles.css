@@ -480,27 +480,3 @@ article ul li a
   -webkit-text-fill-color:transparent;
   animation: animate 10s linear infinite;
 }
-article h1
-{
-  text-align: center;
-  margin-top: 30px;
-  font-family: "arial black";
-  font-size: 10px;
-  line-height: 1em;
-  text-transform: uppercase;
-  background: url("myndir/color.jpg");
-  -webkit-background-clip:text;
-  -webkit-text-fill-color:transparent;
-  animation: animate 10s linear infinite;
-}
-@keyframes animate
-{
-  0%
-  {
-    background-position: 0 0;
-  }
-  100%
-  {
-    background-position: 100% 100%;
-  }
-}
