@@ -467,16 +467,3 @@ article{
             transform: translateY(-30px);
   }
 }
-article ul li a
-{
-  text-align: center;
-  margin-top: 10px;
-  font-family: "arial black";
-  font-size: 15px;
-  line-height: 1em;
-  text-transform: uppercase;
-  background: url("myndir/color.jpg");
-  -webkit-background-clip:text;
-  -webkit-text-fill-color:transparent;
-  animation: animate 10s linear infinite;
-}
